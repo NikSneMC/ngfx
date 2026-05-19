@@ -1,0 +1,11 @@
+[language-server]
+oxfmt = { command = "pnpx", args = ["oxfmt", "--lsp"] }
+oxlint = { command = "pnpx", args = ["oxlint", "--lsp"] }
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server", "oxfmt", "oxlint"]
+
+[[language]]
+name = "json"
+language-servers = ["oxfmt", "oxlint"]

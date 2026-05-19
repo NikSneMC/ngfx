@@ -1,0 +1,46 @@
+{
+  "$schema": "https://www.schemastore.org/package.json",
+  "name": "ngfx",
+  "version": "0.0.1",
+  "author": {
+    "name": "NikSne",
+    "email": "contact@niksne.ru",
+    "url": "https://niksne.ru"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@angular/common": "~21.2.0",
+    "@angular/core": "~21.2.0",
+    "@angular/forms": "~21.2.0",
+    "@angular/router": "~21.2.0",
+    "@angular/service-worker": "~21.2.0",
+    "effect": "^4.0.0-beta.66",
+    "rxjs": "^7.0.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.50.0",
+    "oxlint": "^1.65.0",
+    "oxlint-tsgolint": "^0.23.0",
+    "typescript": "^6.0.3"
+  }
+}
