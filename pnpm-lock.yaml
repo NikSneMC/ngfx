@@ -21,8 +21,8 @@ importers:
         specifier: ~21.2.0
         version: 21.2.13(@angular/common@21.2.13(@angular/core@21.2.17(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(rxjs@7.8.2))(@angular/platform-browser@21.2.13(@angular/common@21.2.13(@angular/core@21.2.17(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(rxjs@7.8.2)))(rxjs@7.8.2)
       '@angular/service-worker':
-        specifier: ~21.2.0
-        version: 21.2.13(@angular/core@21.2.17(rxjs@7.8.2))(rxjs@7.8.2)
+        specifier: ~21.2.17
+        version: 21.2.17(@angular/core@21.2.17(rxjs@7.8.2))(rxjs@7.8.2)
       effect:
         specifier: ^4.0.0-beta.66
         version: 4.0.0-beta.67
@@ -97,12 +97,12 @@ packages:
       '@angular/platform-browser': 21.2.13
       rxjs: ^6.5.3 || ^7.4.0
 
-  '@angular/service-worker@21.2.13':
-    resolution: {integrity: sha512-qflRGsZn0EZSSbfB4ZCId8cd9dilpmiU0xZ5aQXIoSyTLtuCWdsaozWs3hDGompjPEXWWGFzVknaFYwkqaaGNQ==}
+  '@angular/service-worker@21.2.17':
+    resolution: {integrity: sha512-6/uKwxBA3udngVHuIVqD8kdMV1whfym9ESB1UyjoNINx+2zj7A749X89tiV0TW2CvWpUYUE7VxpoapEiv5lvfw==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/core': 21.2.13
+      '@angular/core': 21.2.17
       rxjs: ^6.5.3 || ^7.4.0
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3':
@@ -538,7 +538,7 @@ snapshots:
       rxjs: 7.8.2
       tslib: 2.8.1
 
-  '@angular/service-worker@21.2.13(@angular/core@21.2.17(rxjs@7.8.2))(rxjs@7.8.2)':
+  '@angular/service-worker@21.2.17(@angular/core@21.2.17(rxjs@7.8.2))(rxjs@7.8.2)':
     dependencies:
       '@angular/core': 21.2.17(rxjs@7.8.2)
       rxjs: 7.8.2
